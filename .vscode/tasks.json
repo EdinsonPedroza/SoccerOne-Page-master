@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "SoccerOne-Page-master",
+			"problemMatcher": [],
+			"label": "npm: start - SoccerOne-Page-master",
+			"detail": "react-scripts start"
+		}
+	]
+}

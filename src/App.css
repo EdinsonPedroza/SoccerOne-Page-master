@@ -1,0 +1,110 @@
+.App {
+  position: relative;
+  text-align: right;
+  width:100% !important;
+  background-image: url("./components/img/fondo.png");
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+#soccer{
+  position: relative;
+  top: 80px;
+  right: 100px;
+  font-family: 'Poppins',sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 100px;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.one{
+  position: relative;
+  top: -100px;
+  left: 220px;
+  font-family: 'Poppins',sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 100px;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.subText{
+  position: relative;
+  top: -55px;
+  font-size: 30px;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.subText2{
+  position: relative;
+  top: -110px;
+  font-size: 30px;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.links{
+  position: relative;
+  top: 50px;
+  right: 700px;
+  display: inline;
+  text-align: center;
+  width: 150px;
+  font-weight: 700;
+  padding: 15px 15px;
+  border-radius: 25px;
+  background-color: black;
+  background-position: left;
+  box-shadow: inset 0 0 0 0 #ff3c78;
+  text-decoration: none;
+  font-family: 'Poppins',sans-serif;
+  color: #a0a0a0;
+  letter-spacing: 0.5px;
+  transition: .7s;
+  margin: 10px;
+}
+
+.links:hover {
+  box-shadow: inset 265px 0 0 0 #ff3c78;
+  cursor: pointer;
+  color: aliceblue;
+  font-size: 22px;
+}
+
+
+.containerApp{
+  
+  justify-content: center;
+}

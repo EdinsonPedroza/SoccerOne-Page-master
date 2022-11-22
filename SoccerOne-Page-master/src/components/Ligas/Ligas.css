@@ -1,0 +1,125 @@
+
+.contenedorligas{
+  background-color: #6EF709;
+}
+
+
+.Timg{
+  width: 200px;
+  height: 120px;
+  border-radius:250px;
+  transition: .6s;
+}
+
+.t1{
+
+
+  font-family: 'Poppins',sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 100px;
+
+  color: black;
+}
+
+.t2{
+  position: relative;
+  top: -197px;
+  left: 420px;
+  right: 100PX;
+  font-family: 'Poppins',sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 100px;
+  color: black;
+}
+
+
+.ligas{
+  position: relative;
+  top: -230px;
+  text-decoration: underline;
+  font-family: 'Poppins',sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 80px;
+
+  color: black;
+
+}
+
+.ligasMain{
+  position: relative;
+  text-align: center;
+  width:100% !important;
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,60,120,0.4654236694677871) 100%);
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+.cardprincipal{
+  position: relative;
+  left: 300px;
+  width: 270px;
+  height: 400px;
+  padding: 10px;
+  margin-left: 50px;
+  border-color:#0000;
+  border: black 3px solid;
+  border-radius: 50px;
+}
+
+.ligasLinks{
+  position: relative;
+  top: 20px;
+  text-align: center;
+  width: 150px;
+  font-weight: 700;
+  padding: 15px 40px;
+  border-radius: 25px;
+  background-color: black;
+  background-position: left;
+  box-shadow: inset 0 0 0 0 #ff3c78;
+  text-decoration: none;
+  font-family: 'Poppins',sans-serif;
+  color: #a0a0a0;
+  letter-spacing: 0.5px;
+  transition: .7s;
+  margin: 10px;
+}
+
+.ligasLinks:hover{
+  box-shadow: inset 265px 0 0 0 #ff3c78;
+  cursor: pointer;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.soccerL{
+  position: relative;
+  top: 20px;
+  right: 530px;
+  font-family: 'Poppins',sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 100px;
+  color: black;
+}
+
+.oneL{
+  position: relative;
+  top: -162px;
+  right: 215px;
+  font-family: 'Poppins',sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 100px;
+  color: black;
+}
+
+
+.cartas{
+  background-color: black;
+}

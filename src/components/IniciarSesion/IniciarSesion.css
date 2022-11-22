@@ -1,0 +1,102 @@
+.Login{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url("../img/fondo.png");
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 100px 80px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  background-color: rgba(0,0,0,0.1);
+}
+
+.logo {
+  position: absolute;
+  margin-top: -310px;
+  margin-left: 105px;
+  border-radius: 15px;
+  width: 200px;
+}
+
+
+form label {
+  position: relative;
+  top: 10px;
+  margin-bottom: 35px;
+}
+
+form label .fa-solid {
+  font-size: 20px;
+  color: black;
+  margin-right: 10px;
+}
+
+form label input {
+  outline: none;
+  border: none;
+  color: white;
+  padding: 0 5px;
+  font-size: 18px;
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 10px;
+  height: 30px;
+}
+
+form label input::placeholder {
+  color: rgba(0, 0, 0, 0.75);
+}
+
+
+
+form .link {
+  position: relative;
+  top: 40px;
+  color:black;
+  margin-bottom: 15px;
+  transition: .6s;
+}
+
+form .link:hover {
+  font-size: 17px;
+  color: white;
+}
+
+form button {
+  position: relative;
+  top: 70px;
+  color: #a0a0a0;
+  border: none;
+  background: black;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 20px;
+  transition: 0.2s;
+}
+
+form button:hover{
+  color:white;
+  font-size: 22px;
+}
+
+#eye{
+  position: absolute;
+  margin-left: -30px;
+  margin-top: 4px;
+}
+
+#eye:hover{
+  cursor: pointer;
+}
+
